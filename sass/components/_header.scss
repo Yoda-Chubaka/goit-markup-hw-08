@@ -33,11 +33,13 @@
 }
 
 .mobile-menu-btn {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
     top: 10px;
     right: 15px;
     background-color: transparent;
     border: none;
-    padding: 0;
     line-height: 0;
     cursor: pointer;
 }
@@ -57,12 +59,14 @@
 }
 
 .mobile-menu.is-open {
+    display: block;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
 
 .mobile-menu__close-btn {
+    display: block;
     position: absolute;
     top: 10px;
     right: 15px;

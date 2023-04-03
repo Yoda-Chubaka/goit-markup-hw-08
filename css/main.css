@@ -59,13 +59,13 @@ img {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 448px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 480px;
   }
 }
 .section {
@@ -120,11 +120,15 @@ img {
 }
 
 .mobile-menu-btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
   top: 10px;
   right: 15px;
   background-color: transparent;
   border: none;
-  padding: 0;
   line-height: 0;
   cursor: pointer;
 }
@@ -145,12 +149,14 @@ img {
 }
 
 .mobile-menu.is-open {
+  display: block;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
 .mobile-menu__close-btn {
+  display: block;
   position: absolute;
   top: 10px;
   right: 15px;
@@ -268,10 +274,10 @@ img {
   letter-spacing: 0.02em;
 }
 
-.hero-mobile {
+.hero {
   min-height: 480px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/mobile/hero.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/mobile/hero.webp);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/hero.webp);
   background-color: var(--background-color-image);
   background-size: cover;
   background-repeat: no-repeat;
@@ -282,7 +288,13 @@ img {
   margin-right: auto;
 }
 
-.hero-mobile__title {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/mobile/hero@2x.webp);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/hero@2x.webp);
+  }
+}
+.hero__title {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -295,7 +307,7 @@ img {
   text-transform: uppercase;
 }
 
-.hero__button-mobile {
+.hero__button {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 32px;
@@ -312,7 +324,7 @@ img {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero__button-mobile:hover, .hero__button-mobile:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: var(--active-button-color);
   cursor: pointer;
 }
@@ -344,8 +356,8 @@ img {
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
   opacity: 1;
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   background-color: var(--primary-background-color);
   border-radius: 4px;
   -webkit-transform: scale(1), opacity(1);
@@ -525,10 +537,17 @@ img {
   border-color: var(--link-color);
 }
 
+.checkbox-paragraph {
+  display: inline;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
 .link-comment {
-  display: block;
-  font-size: 14px;
-  line-height: 1.71;
+  display: inline;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: var(--link-color);
