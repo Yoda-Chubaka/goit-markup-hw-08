@@ -352,10 +352,9 @@ img {
 .modal {
   position: absolute;
   margin-top: 93px;
-  top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%) scale(1);
-          transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%) scale(1);
+          transform: translate(-50%) scale(1);
   opacity: 1;
   width: 450px;
   height: 609px;
