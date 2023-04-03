@@ -345,8 +345,8 @@ img {
   pointer-events: none;
 }
 .backdrop.is-hidden .modal {
-  -webkit-transform: translate(-50%, -50%) scale(0.7);
-          transform: translate(-50%, -50%) scale(0.7);
+  -webkit-transform: translate(-50%) scale(0.7);
+          transform: translate(-50%) scale(0.7);
 }
 
 .modal {
