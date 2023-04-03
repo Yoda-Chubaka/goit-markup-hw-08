@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
-    <header class="header-border">
+    <header class="header">
             <div class="container header-container">
                 <nav class="header-item">
                         <a href="./index.html"><span class="logo">Web</span><span class="logo logo-second-part">Studio</span></a>
@@ -31,8 +31,8 @@
                         </li>
                     </ul>
                 </nav>
-                <button type="button" class="mobile-menu-button">
-                    <svg class="mobile-menu-button__icon" width="40" height="40">
+                <button type="button" class="mobile-menu-btn" data-menu-open>
+                    <svg class="mobile-menu-btn__icon" width="40" height="40">
                         <use href="./images/for-sprite/sprite.svg#icon-menu"></use>
                     </svg>
                 </button>
@@ -54,6 +54,28 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="mobile-menu" data-menu>
+                <div class="container mobile-menu-container">
+                    <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                        <svg class="mobile-menu__close-icon" width="40" height="40">
+                            <use href="./images/for-sprite/sprite.svg#icon-close-menu"></use>
+                        </svg>
+                    </button>
+                    <ul class="list-link flex-items">
+                        <li class="list-item">
+                            <a class="link current" href="./index.html">Студія</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="link" href="./portfolio.html">Портфоліо</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="link" href="#">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
     </header>
     <!-- <main>
         <section class="hero">
