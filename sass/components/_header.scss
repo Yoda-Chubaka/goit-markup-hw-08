@@ -23,6 +23,19 @@
     display: none;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+}
+
 // .header-item {
 //     display: flex;
 //     align-items: center;
