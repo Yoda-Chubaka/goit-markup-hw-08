@@ -39,6 +39,7 @@
     border: none;
     padding: 0;
     line-height: 0;
+    cursor: pointer;
 }
 
 .mobile-menu {
@@ -51,6 +52,7 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    background-color: var(--primary-background-color);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -68,6 +70,12 @@
     border: none;
     padding: 0;
     line-height: 0;
+    cursor: pointer;
+}
+
+.mobile-menu__close-btn:hover,
+.mobile-menu__close-btn:focus {
+    fill: var(--link-color);
 }
 
 .mobile-menu__container {
@@ -77,7 +85,12 @@
 }
 
 .mobile-menu__list-link {
-    margin-left: 93px;
+    padding-left: 25px;
+    margin-bottom: 302px;
+}
+
+.mobile-menu__list-item:not(:last-child) {
+    margin-bottom: 36px;
 }
 
 .mobile-menu__link {
@@ -85,8 +98,8 @@
     position: relative;
     color: var(--primary-color);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 40px;
+    line-height: 1.18;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -96,9 +109,15 @@
     }
 }
 
+.mobile-menu__link.current {
+    color: var(--link-color);
+}
+
 .mobile-menu__list-address {
-    margin-top: 0;
-    margin-left: auto;
+    // margin-top: 0;
+    // margin-left: auto;
+    padding-left: 25px;
+    margin-bottom: 64px;
 }
 
 .link-address {
@@ -117,9 +136,9 @@
     }
 }
 
-// .mobile-menu__address-item:not(:last-child) {
-//     margin-right: 50px;
-// }
+.mobile-menu__address-item:not(:last-child) {
+    margin-bottom: 32px;
+}
 
 .mail-icon {
     width: 16px;
@@ -145,8 +164,20 @@
     }
 }
 
-.mail {
-    margin-left: auto;
+.mobile-menu__social-network {
+    padding-left: 25px;
+}
+
+.mobile-menu__network-item:not(:last-child) {
+    margin-right: 10px;
+
+}
+
+.mobile-menu__network-item:not(:last-child)::after {
+    content: "";
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+    margin-left: 10px;
 }
 
 // .header-item {
@@ -168,7 +199,7 @@
 //     color: var(--primary-color);
 //     font-weight: 500;
 //     font-size: 14px;
-//     line-height: 16px;
+//     line-height: 1.14px;
 //     letter-spacing: 0.02em;
 //     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
