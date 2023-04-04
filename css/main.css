@@ -621,62 +621,15 @@ img {
 }
 
 .our-work {
-  padding-bottom: 94px;
-}
-
-.work {
-  -ms-flex-preferred-size: calc((100% - 90px) / 3);
-      flex-basis: calc((100% - 90px) / 3);
-}
-.work:not(:last-child) {
-  margin-right: 30px;
-}
-
-.description-title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.product-thumb {
-  position: relative;
-}
-
-.our-work-name {
-  position: absolute;
-  width: 100%;
-  height: 70px;
-  bottom: 0;
-  left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-background-color);
-  background-color: rgba(47, 48, 58, 0.8);
+  display: none;
 }
 
 .worker-list {
-  -ms-flex-preferred-size: calc((100% - 120px) / 4);
-      flex-basis: calc((100% - 120px) / 4);
-  width: 270px;
+  width: 450px;
 }
+
 .worker-list:not(:last-child) {
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .worker-description {
@@ -702,7 +655,8 @@ img {
 }
 
 .worker {
-  margin-bottom: 50px;
+  padding-top: 60px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
