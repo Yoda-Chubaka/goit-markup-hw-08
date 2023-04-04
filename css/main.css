@@ -809,14 +809,33 @@ img {
 }
 
 .list-button {
-  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
-.button-item:not(:last-child) {
+.button-item {
+  display: block;
+  height: 100%;
+}
+
+.button-item:not(:nth-child(n+4)) {
+  margin-bottom: 15px;
+}
+
+.button-item:not(:nth-child(3)) {
   margin-right: 8px;
+}
+
+.button-item:nth-child(3) {
+  margin-right: 124px;
 }
 
 .filter-button {
