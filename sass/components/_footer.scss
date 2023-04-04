@@ -127,7 +127,6 @@
 }
 
 .footer-form-title {
-    // margin-bottom: 40px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -139,6 +138,7 @@
 }
 
 .email-footer {
+    display: block;
     margin-top: 20px;
     width: 450px;
     height: 50px;
