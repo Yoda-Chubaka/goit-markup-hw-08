@@ -1,7 +1,7 @@
-// // 480px +
+// 480px +
 // @media screen and (min-width: 480px) {
 //     .worker-section {
-//         width: 480px;
+//         width: 450px;
 //         display: flex;
 //     }
 // }
@@ -13,7 +13,6 @@
 
 .worker-list {
     width: 450px;
-    justify-content: center;
 }
 
 .worker-list:not(:last-child) {
