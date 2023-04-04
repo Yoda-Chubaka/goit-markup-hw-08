@@ -1,5 +1,19 @@
+// // 480px +
+// @media screen and (min-width: 480px) {
+//     .worker-section {
+//         width: 480px;
+//         display: flex;
+//     }
+// }
+
+.worker-section {
+    background-color: var(--section-color);
+    padding-bottom: 60px;
+}
+
 .worker-list {
     width: 450px;
+    justify-content: center;
 }
 
 .worker-list:not(:last-child) {
@@ -65,8 +79,8 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-        justify-content: center;
-        display: flex;
+    justify-content: center;
+    display: flex;
     align-items: center;
 
     &:not(:last-child) {
