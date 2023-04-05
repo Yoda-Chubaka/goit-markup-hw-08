@@ -101,9 +101,13 @@
 }
 
 // 768px +
+.worker-box {
+    flex-wrap: wrap;
+}
+
 .worker-list {
     flex-basis: calc((100% - 2*30px) / 2);
-    width: 270px;
+    width: 354px;
 
     &:nth-child(2n+1) {
         margin-right: 30px;
@@ -132,7 +136,7 @@
 }
 
 .worker {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
