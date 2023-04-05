@@ -190,14 +190,17 @@
             padding-bottom: 16px;
         }
     
-        .header-container {
-            display: flex;
-            // justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid var(--header-border-color);
-        }
+    .header-container {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid var(--header-border-color);
+    }
 
     .mobile-menu-btn {
+        display: none;
+    }
+
+    .mobile-menu {
         display: none;
     }
 
@@ -286,9 +289,9 @@
         }
     }
     
-    // .address-item:not(:last-child) {
-    //      margin-right: 50px;
-    // }
+    .address-item:not(:last-child) {
+         margin-bottom: 10px;
+    }
     
     .mail-icon {
         width: 16px;
