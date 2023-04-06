@@ -73,6 +73,7 @@
 }
 
 // 768px +
+@media (min-width: 768px) {
 .project-items {
     display: flex;
     flex-wrap: wrap;
@@ -170,7 +171,7 @@
     letter-spacing: 0.03em;
     color: var(--primary-background-color);
 }
-
+}
 
 
 // .project-items {
