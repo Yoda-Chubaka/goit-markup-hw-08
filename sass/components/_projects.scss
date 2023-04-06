@@ -76,17 +76,24 @@
 .project-items {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: -30px;
-    margin-right: -30px;
+    margin-bottom: 60px;
+    // margin-bottom: -30px;
+    // margin-right: -30px;
 }
 
 .card-project {
     flex-basis: calc((100% - 2 * 30px) / 2);
-    margin-right: 30px;
-    margin-bottom: 30px;
+    width: 354px;
+    height: 440px;
+    // margin-right: 30px;
+    // margin-bottom: 30px;
 
     &:not(:nth-child(2n)) {
         margin-right: 30px;
+    }
+
+    &:nth-child(9) {
+        margin-right: 0;
     }
 
     &:last-child {
@@ -110,6 +117,7 @@
 }
 
 .project-description {
+    height: 146px;
     padding-top: 20px;
     padding-right: 24px;
     padding-bottom: 20px;
