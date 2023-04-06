@@ -186,12 +186,12 @@
 // }
 
 // .footer-right-part {
-//     margin-left: 70px;
+//     align-self: baseline;
 // }
 
 .footer-container {
     display: flex;
-    align-items: baseline;
+    // align-items: baseline;
     justify-content: space-around;
     // margin-bottom: 60px;
     
