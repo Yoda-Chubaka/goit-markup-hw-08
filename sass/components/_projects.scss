@@ -85,11 +85,11 @@
     margin-right: 30px;
     margin-bottom: 30px;
 
-    &:not(:last-child) {
+    &:not(:nth-child(2n)) {
         margin-right: 30px;
     }
 
-    &:nth-child(3n) {
+    &:last-child {
         margin-bottom: 0;
     }
 }

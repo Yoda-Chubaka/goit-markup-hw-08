@@ -1640,10 +1640,10 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.card-project:not(:last-child) {
+.card-project:not(:nth-child(2n)) {
   margin-right: 30px;
 }
-.card-project:nth-child(3n) {
+.card-project:last-child {
   margin-bottom: 0;
 }
 
