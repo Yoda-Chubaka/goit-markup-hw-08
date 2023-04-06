@@ -1212,6 +1212,9 @@ img {
 
 @media (min-width: 768px) {
   .worker-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-bottom: -30px;
@@ -1404,14 +1407,15 @@ img {
   .clients__company {
     width: 226px;
     height: 92px;
+    margin-right: 30px;
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
         flex-basis: calc((100% - 90px) / 3);
   }
   .clients__company:not(:nth-child(n+4)) {
     margin-bottom: 30px;
   }
-  .clients__company:not(:nth-child(3n+3)) {
-    margin-right: 30px;
+  .clients__company:nth-child(3n+3) {
+    margin-right: 0;
   }
   .clients__link {
     display: -webkit-box;

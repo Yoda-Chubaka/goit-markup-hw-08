@@ -104,6 +104,7 @@
 // 768px +
 @media (min-width: 768px) {
 .worker-box {
+    display: flex;
     flex-wrap: wrap;
     margin-bottom: -30px;
 }
