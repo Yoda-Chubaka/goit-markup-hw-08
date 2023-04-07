@@ -372,12 +372,14 @@
 }
 
 // 1120px +
-@media (min-width: 1120px) {
+@media screen and (min-width: 1120px) {
     .logo-third-part {
     color: var(--primary-background-color);
 }
 
 .footer-address {
+    display: flex;
+    justify-content: space-around;
     background-color: var(--secondary-background-color);
     padding-top: 60px;
     padding-bottom: 60px;
@@ -388,6 +390,19 @@
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+}
+
+.footer-left-part {
+    text-align: left;
+}
+
+.footer-box {
+    text-align: left;
+}
+
+.footer-contain {
+    display: flex;
+    align-items: center;
 }
 
 .footer-link {
@@ -477,7 +492,7 @@
     display: flex;
     width: 570px;
     height: 86px;
-    margin-left: 93px;
+    // margin-left: 93px;
 }
 
 .contact-form-input-footer {
