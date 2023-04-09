@@ -2999,6 +2999,7 @@ img {
   }
   .join-link {
     margin-bottom: 20px;
+    text-align: left;
     color: var(--primary-background-color);
     font-weight: 700;
     font-size: 14px;
@@ -3073,6 +3074,7 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-left: 93px;
     width: 570px;
     height: 86px;
   }

@@ -408,11 +408,6 @@
     text-align: left;
 }
 
-// .footer-contain {
-//     display: flex;
-//     align-items: center;
-// }
-
 .footer-link {
     font-style: normal;
     font-weight: 400;
@@ -436,6 +431,7 @@
 
 .join-link {
     margin-bottom: 20px;
+    text-align: left;
     color: var(--primary-background-color);
     font-weight: 700;
     font-size: 14px;
@@ -498,6 +494,7 @@
 
 .footer-form {
     display: flex;
+    margin-left: 93px;
     width: 570px;
     height: 86px;
     // margin-left: 93px;
