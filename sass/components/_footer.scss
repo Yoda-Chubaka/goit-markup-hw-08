@@ -213,7 +213,7 @@
 
 .footer-left-part {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 60px;
 }
 
@@ -303,13 +303,13 @@
     margin-left: 10px;
 }
 
-.contact-form-input-footer {
-    display: block;
-}
+// .contact-form-input-footer {
+//     display: block;
+// }
 
 .footer-form-title {
-    display: block;
-    margin-bottom: 20px;
+    // display: block;
+    // margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -351,6 +351,7 @@
 
 .footer-button {
     display: flex;
+    justify-content: center;
     align-items: center;
     min-width: 200px;
     height: 50px;
@@ -375,7 +376,7 @@
 }
 }
 
-// // 1200px +
+// 1200px +
 // @media screen and (min-width: 1200px) {
 //     }
 //     .logo-third-part {
