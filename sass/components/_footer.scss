@@ -100,8 +100,17 @@
 }
 
 .footer-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
     width: 570px;
     height: 86px;
+}
+
+.footer-contain {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .contact-form-field {
@@ -122,7 +131,7 @@
 .email-footer {
     display: block;
     margin-top: 20px;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 450px;
@@ -182,20 +191,19 @@
 }
 
 
-// .footer-left-part {
-//     margin-left: 76px;
-// }
+.footer-left-part {
+    margin-left: 76px;
+}
 
-// .footer-right-part {
-//     align-self: baseline;
-// }
+.footer-right-part {
+    align-self: baseline;
+}
 
 .footer-container {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    // margin-bottom: 60px;
-    
+    padding-bottom: 60px;
 }
 
 .footer-address {
@@ -288,10 +296,10 @@
     margin-left: 10px;
 }
 
-// .footer-form {
-//     width: 570px;
-//     height: 86px;
-// }
+.footer-form {
+    width: 570px;
+    height: 86px;
+}
 
 .contact-form-field {
     margin-top: 60px;
@@ -400,10 +408,10 @@
     text-align: left;
 }
 
-.footer-contain {
-    display: flex;
-    align-items: center;
-}
+// .footer-contain {
+//     display: flex;
+//     align-items: center;
+// }
 
 .footer-link {
     font-style: normal;

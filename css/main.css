@@ -2408,8 +2408,23 @@ img {
 }
 
 .footer-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 60px;
   width: 570px;
   height: 86px;
+}
+
+.footer-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .contact-form-field {
@@ -2429,7 +2444,6 @@ img {
 .email-footer {
   display: block;
   margin-top: 20px;
-  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 450px;
@@ -2512,6 +2526,13 @@ img {
   .logo-third-part {
     color: var(--primary-background-color);
   }
+  .footer-left-part {
+    margin-left: 76px;
+  }
+  .footer-right-part {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
+  }
   .footer-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2521,6 +2542,7 @@ img {
             align-items: baseline;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    padding-bottom: 60px;
   }
   .footer-address {
     width: 768px;
@@ -2602,6 +2624,10 @@ img {
   }
   .footer-icon {
     margin-left: 10px;
+  }
+  .footer-form {
+    width: 570px;
+    height: 86px;
   }
   .contact-form-field {
     margin-top: 60px;
@@ -2722,14 +2748,6 @@ img {
   }
   .footer-box {
     text-align: left;
-  }
-  .footer-contain {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .footer-link {
     font-style: normal;
