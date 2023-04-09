@@ -2645,7 +2645,6 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 60px;
   width: 570px;
   height: 86px;
 }
@@ -2773,7 +2772,6 @@ img {
             align-items: baseline;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding-bottom: 60px;
   }
   .footer-address {
     width: 768px;
@@ -2867,7 +2865,6 @@ img {
   }
   .footer-contain {
     display: block;
-    margin-top: 60px;
   }
   .footer-form-title {
     font-weight: 700;
@@ -2973,6 +2970,7 @@ img {
             align-items: baseline;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    padding-bottom: 0;
   }
   .footer-left-part {
     text-align: left;
