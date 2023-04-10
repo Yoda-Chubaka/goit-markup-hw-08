@@ -404,6 +404,11 @@
 .footer-left-part {
     text-align: left;
     margin-left: 0;
+    margin-bottom: 0;
+}
+
+.footer-right {
+    margin-left: 70px;
 }
 
 .footer-box {
@@ -440,10 +445,6 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.footer-right-part {
-    margin-left: 70px;
 }
 
 .social-list-footer {
@@ -488,6 +489,7 @@
 .footer-contain {
     display: flex;
     align-items: end;
+    
 }
 
 .footer-icon {
@@ -509,6 +511,7 @@
 
 .footer-form-title {
     display: block;
+    text-align: left;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
