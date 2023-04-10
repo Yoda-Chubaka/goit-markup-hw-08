@@ -2757,6 +2757,7 @@ img {
   .footer-address {
     width: 768px;
     background-color: var(--secondary-background-color);
+    padding-top: 0;
   }
   .footer-container {
     display: block;
@@ -2799,6 +2800,9 @@ img {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+  }
+  .box-media-footer {
+    margin-bottom: 0;
   }
   .social-list-footer {
     width: 44px;

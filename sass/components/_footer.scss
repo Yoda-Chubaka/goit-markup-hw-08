@@ -206,7 +206,7 @@
     .footer-address {
         width: 768px;
         background-color: var(--secondary-background-color);
-        // padding-top: 60px;
+        padding-top: 0;
         // padding-bottom: 60px;
     }
 
@@ -257,7 +257,7 @@
 }
 
 .box-media-footer {
-    
+    margin-bottom: 0;
 }
 
 .social-list-footer {
