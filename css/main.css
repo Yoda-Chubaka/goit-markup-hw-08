@@ -2439,6 +2439,7 @@ img {
     margin-right: -30px;
   }
   .card-project {
+    height: 404px;
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
         flex-basis: calc((100% - 90px) / 3);
     margin-right: 30px;
@@ -2466,6 +2467,7 @@ img {
             transform: translateY(-100%);
   }
   .project-description {
+    height: 110px;
     padding-top: 20px;
     padding-right: 24px;
     padding-bottom: 20px;

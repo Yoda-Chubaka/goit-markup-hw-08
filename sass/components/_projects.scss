@@ -181,6 +181,7 @@
 }
 
 .card-project {
+    height: 404px;
     flex-basis: calc((100% - 3 * 30px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
@@ -211,6 +212,7 @@
 }
 
 .project-description {
+    height: 110px;
     padding-top: 20px;
     padding-right: 24px;
     padding-bottom: 20px;
