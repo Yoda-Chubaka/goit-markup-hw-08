@@ -2436,6 +2436,7 @@ img {
   .project-items {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-right: -30px;
   }
   .card-project {
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
