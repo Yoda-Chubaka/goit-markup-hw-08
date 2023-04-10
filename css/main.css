@@ -2523,12 +2523,16 @@ img {
     color: var(--primary-background-color);
   }
 }
-.footer-address {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+.footer-container {
+  display: block;
+}
+
+.footer-left {
+  display: block;
+}
+
+.footer-right {
+  display: block;
 }
 
 .logo {
@@ -2657,21 +2661,6 @@ img {
   height: 86px;
 }
 
-.footer-contain {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.contact-form-field {
-  margin-bottom: 20px;
-}
-
 .footer-form-title {
   font-weight: 700;
   font-size: 14px;
@@ -2685,6 +2674,7 @@ img {
 .email-footer {
   display: block;
   margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 450px;
@@ -2768,12 +2758,18 @@ img {
     width: 768px;
     background-color: var(--secondary-background-color);
   }
+  .footer-container {
+    display: block;
+  }
   .footer-left-part {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     margin-bottom: 60px;
   }
   .logo-third-part {
