@@ -1,6 +1,7 @@
 // 480px +
 .worker-section {
     background-color: var(--section-color);
+    width: 100%;
     padding-bottom: 60px;
 }
 
@@ -103,6 +104,11 @@
 
 // 768px +
 @media screen and (min-width: 768px) {
+.worker-section {
+        background-color: var(--section-color);
+        width: 100%;
+    }
+
 .worker-box {
     display: flex;
     flex-wrap: wrap;
@@ -137,10 +143,6 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-}
-
-.worker-section {
-    background-color: var(--section-color);
 }
 
 .worker {
@@ -215,6 +217,11 @@
 
 // 1200px +
 @media screen and (min-width: 1200px) {
+.worker-section {
+        background-color: var(--section-color);
+        width: 100%;
+    }
+
 .worker-list {
     flex-basis: calc((100% - 4*30px) / 4);
     width: 270px;
@@ -239,10 +246,6 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-}
-
-.worker-section {
-    background-color: var(--section-color);
 }
 
 .worker {
