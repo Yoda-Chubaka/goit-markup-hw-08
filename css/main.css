@@ -2550,7 +2550,7 @@ img {
 
 .footer-container {
   display: block;
-  width: 480px;
+  width: 100%;
 }
 
 .footer-left {
@@ -2664,6 +2664,10 @@ img {
 
 .footer-icon {
   margin-left: 10px;
+}
+
+.contact-form-input-footer {
+  display: block;
 }
 
 .footer-form-title {
