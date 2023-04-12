@@ -1624,7 +1624,7 @@ img {
 }
 
 .worker-image {
-  width: 100%;
+  max-width: 100%;
 }
 
 .worker-list:not(:last-child) {
@@ -2315,7 +2315,7 @@ img {
 }
 
 .project-image {
-  width: 100%;
+  max-width: 100%;
 }
 
 .overlay {
@@ -2363,9 +2363,11 @@ img {
   .card-project {
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
-    width: 354px;
     margin-right: 30px;
     margin-bottom: 30px;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
   }
   .card-project:nth-child(2n) {
     margin-right: 0;
@@ -2458,7 +2460,9 @@ img {
   .card-project {
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
         flex-basis: calc((100% - 90px) / 3);
-    width: 370px;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
     margin-right: 30px;
     margin-bottom: 30px;
   }
