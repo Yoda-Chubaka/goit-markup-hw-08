@@ -6,13 +6,16 @@
 }
 
 .worker-list {
-    width: 450px;
+    width: 100%;
+}
+
+.worker-image {
+    width: 100%;
 }
 
 .worker-list:not(:last-child) {
     margin-bottom: 30px;
 }
-
 
 .worker-description {
     padding-top: 30px;
@@ -22,20 +25,20 @@
     background-color: var(--primary-background-color);
     }
 
-.description-title {
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
+// .description-title {
+//     margin-bottom: 50px;
+//     font-weight: 700;
+//     font-size: 36px;
+//     line-height: 1.17;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+// }
 
 .worker {
     padding-top: 60px;
     margin-bottom: 30px;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;

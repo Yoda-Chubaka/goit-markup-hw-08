@@ -63,9 +63,9 @@ img {
   margin-right: auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .container {
-    width: 480px;
+    width: 320px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -519,7 +519,7 @@ img {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 360px;
+  width: 300px;
   color: var(--primary-background-color);
   font-weight: 900;
   font-size: 26px;
@@ -690,12 +690,13 @@ img {
 
 .modal {
   position: absolute;
+  margin-top: 30px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
   opacity: 1;
-  width: 450px;
+  width: 300px;
   height: 609px;
   background-color: var(--primary-background-color);
   border-radius: 4px;
@@ -1393,7 +1394,7 @@ img {
 
 .advantages__container {
   position: relative;
-  width: 450px;
+  width: 100%;
   height: 120px;
   background-color: var(--section-color);
   border-radius: 4px;
@@ -1407,6 +1408,10 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.advantages__card {
+  width: 100%;
 }
 
 .advantages__title {
@@ -1426,7 +1431,7 @@ img {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  width: 450px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -1615,7 +1620,11 @@ img {
 }
 
 .worker-list {
-  width: 450px;
+  width: 100%;
+}
+
+.worker-image {
+  width: 100%;
 }
 
 .worker-list:not(:last-child) {
@@ -1631,20 +1640,11 @@ img {
   background-color: var(--primary-background-color);
 }
 
-.description-title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 .worker {
   padding-top: 60px;
   margin-bottom: 30px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -1954,7 +1954,7 @@ img {
   margin-top: 60px;
   margin-bottom: 30px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -1968,7 +1968,7 @@ img {
 }
 
 .clients__company {
-  width: 210px;
+  width: 150px;
   height: 92px;
   -ms-flex-preferred-size: calc((100% - 60px) / 2);
       flex-basis: calc((100% - 60px) / 2);
@@ -1990,7 +1990,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  width: 130px;
   height: 92px;
   border: 1px solid var(--social-network-color);
   border-radius: 4px;
@@ -2261,6 +2261,7 @@ img {
 
 .card-project {
   margin-bottom: 30px;
+  width: 100%;
 }
 .card-project:nth-child(9) {
   margin-bottom: 0;
@@ -2313,6 +2314,10 @@ img {
   overflow: hidden;
 }
 
+.project-image {
+  width: 100%;
+}
+
 .overlay {
   position: absolute;
   width: 100%;
@@ -2340,7 +2345,7 @@ img {
   margin-right: 24px;
   margin-top: 63px;
   margin-bottom: 63px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: var(--primary-background-color);
@@ -2686,7 +2691,7 @@ img {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 450px;
+  width: 300px;
   height: 50px;
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);

@@ -3,7 +3,7 @@
     margin-top: 60px;
     margin-bottom: 30px;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
@@ -13,11 +13,10 @@
 .clients {
     flex-wrap: wrap;
     margin-bottom: 60px;
-    
 }
 
 .clients__company {
-    width: 210px;
+    width: 150px;
     height: 92px;
     flex-basis: calc((100% - 2 * 30px) / 2);
     
@@ -34,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 210px;
+    width: 130px;
     height: 92px;
     border: 1px solid var(--social-network-color);
     border-radius: 4px;
