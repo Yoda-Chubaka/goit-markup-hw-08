@@ -193,7 +193,6 @@ img {
 
 .mobile-menu__list-link {
   padding-left: 25px;
-  margin-bottom: 302px;
 }
 
 .mobile-menu__list-item:not(:last-child) {
@@ -263,7 +262,7 @@ img {
 .mobile-menu__network-link {
   color: var(--link-color);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 10px;
   line-height: 1.22;
   letter-spacing: 0.02em;
 }
