@@ -2373,11 +2373,11 @@ img {
   }
 }
 .clients-title {
-  margin-top: 60px;
   margin-bottom: 30px;
+  margin-top: 60px;
   font-weight: 700;
   font-size: 28px;
-  line-height: 1.17;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-color);
@@ -2390,10 +2390,11 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
+  margin-bottom: 60px;
 }
 
 .clients__company {
-  width: 130px;
+  width: 100%;
   height: 92px;
   -ms-flex-preferred-size: calc((100% - 60px) / 2);
       flex-basis: calc((100% - 60px) / 2);
@@ -2409,7 +2410,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 130px;
+  width: 100%;
   height: 92px;
   border: 1px solid var(--social-network-color);
   border-radius: 4px;
