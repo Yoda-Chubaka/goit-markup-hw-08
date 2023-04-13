@@ -772,7 +772,6 @@ img {
 
 .modal {
   position: absolute;
-  margin-top: 30px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
@@ -839,7 +838,6 @@ img {
   }
   .modal {
     position: absolute;
-    margin-top: 30px;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%) scale(1);
