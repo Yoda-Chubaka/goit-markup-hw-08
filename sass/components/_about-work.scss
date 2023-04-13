@@ -1,6 +1,15 @@
 // 320px +
+@media screen and (min-width: 320px) {
 .our-work {
     display: none;
+}
+}
+
+// 480px +
+@media screen and (min-width: 480px) {
+.our-work {
+    display: none;
+}
 }
 
 // 768px +
