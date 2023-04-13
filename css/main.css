@@ -2564,23 +2564,12 @@ img {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+  gap: 8px;
 }
 
 .button-item {
   display: block;
   height: 100%;
-}
-
-.button-item:not(:nth-child(n+4)) {
-  margin-bottom: 15px;
-}
-
-.button-item:not(:nth-child(3)) {
-  margin-right: 8px;
-}
-
-.button-item:nth-child(3) {
-  margin-right: 124px;
 }
 
 .filter-button {
@@ -2616,6 +2605,7 @@ img {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+    gap: 0;
   }
   .button-item {
     display: block;
