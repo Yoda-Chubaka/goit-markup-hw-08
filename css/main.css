@@ -3594,13 +3594,18 @@ img {
 }
 @media screen and (min-width: 768px) {
   .footer-address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     background-color: var(--secondary-background-color);
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding-top: 0;
     width: 100%;
   }
   .footer-container {
     display: block;
-    width: 100%;
+    width: 768px;
   }
   .footer-left-part {
     display: -webkit-box;

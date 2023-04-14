@@ -385,8 +385,9 @@
 // 768px +
 @media screen and (min-width: 768px) {
     .footer-address {
-        // display: block;
+        display: flex;
         background-color: var(--secondary-background-color);
+        justify-content: space-around;
         padding-top: 0;
         width: 100%;
         // padding-bottom: 60px;
@@ -394,7 +395,7 @@
 
 .footer-container {
     display: block;
-    width: 100%;
+    width: 768px;
 }
 
 .footer-left-part {
