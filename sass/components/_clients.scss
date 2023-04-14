@@ -1,7 +1,11 @@
 // 320px +
+.clients-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .clients-title {
     margin-bottom: 30px;
-    margin-top: 60px;
     font-weight: 700;
     font-size: 28px;
     line-height: 1.18;
@@ -14,7 +18,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 60px;
 }
 
 .clients__company {
@@ -75,10 +78,6 @@
     color: var(--primary-color);
 }
 
-.box-clients {
-    margin-bottom: 60px;
-}
-
 .clients__company {
     width: 226px;
     height: 92px;
@@ -118,8 +117,11 @@
 
 // 1200px +
 @media screen and (min-width: 1200px) {
+.clients-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .clients-title {
-    margin-top: 94px;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
