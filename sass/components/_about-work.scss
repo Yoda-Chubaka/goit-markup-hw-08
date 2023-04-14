@@ -28,6 +28,7 @@
 
 .work {
     flex-basis: calc((100% - 3 * 30px) / 3);
+    width: 370px;
 
     &:not(:last-child) {
         margin-right: 30px;

@@ -1,12 +1,12 @@
 // 320px +
 .header {
     position: relative;
-    // padding-top: 16px;
-    // padding-bottom: 16px;
 }
 
 .header-container {
     display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--header-border-color);
@@ -205,6 +205,8 @@
 @media screen and (min-width: 768px) {
         .header-container {
         display: flex;
+        padding-top: 0;
+        padding-bottom: 0;
         align-items: center;
         border-bottom: 1px solid var(--header-border-color);
     }
@@ -333,6 +335,11 @@
 
 // 1200px +
 @media screen and (min-width: 1200px) {
+    .header-container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
     .header-item {
         display: flex;
         align-items: center;

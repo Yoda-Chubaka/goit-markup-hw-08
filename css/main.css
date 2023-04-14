@@ -93,6 +93,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -293,6 +295,8 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -415,6 +419,10 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
+  .header-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .header-item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1746,6 +1754,52 @@ img {
   width: 100%;
 }
 
+@media screen and (min-width: 480px) {
+  .advantages {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .advantages__card:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .advantages__container {
+    position: relative;
+    width: 450px;
+    height: 120px;
+    background-color: var(--section-color);
+    border-radius: 4px;
+  }
+  .advantages__icon {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .advantages__card {
+    width: 450px;
+  }
+  .advantages__title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .advantages__paragraph {
+    color: var(--link-address-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    width: 100%;
+  }
+}
 @media screen and (min-width: 768px) {
   .advantages {
     display: -webkit-box;
@@ -1757,6 +1811,7 @@ img {
   .advantages__card {
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
+    width: 354px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1822,6 +1877,7 @@ img {
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
         flex-basis: calc((100% - 90px) / 3);
     margin-right: 30px;
+    width: 270px;
     height: 248px;
   }
   .advantages__card:nth-child(n+1) {
@@ -1892,6 +1948,7 @@ img {
   .work {
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
         flex-basis: calc((100% - 90px) / 3);
+    width: 370px;
   }
   .work:not(:last-child) {
     margin-right: 30px;
