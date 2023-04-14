@@ -1,6 +1,11 @@
 // 320px +
+.section-project {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .list-button {
-    margin-top: 60px;
+    // margin-top: 60px;
     margin-bottom: 40px;
     justify-content: center;
     flex-wrap: wrap;
@@ -46,8 +51,12 @@
 
 // 480px +
 @media (min-width: 480px) {
+    .section-project {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
     .list-button {
-    margin-top: 60px;
     margin-bottom: 40px;
     justify-content: center;
     flex-wrap: wrap;
@@ -94,8 +103,14 @@
 
 // 768px +
 @media (min-width: 768px) {
+.section-project {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .list-button {
-    margin-bottom: 14px;
+    margin-bottom: 30px;
+    height: 38px;
     justify-content: center;
 }
 
@@ -106,6 +121,7 @@
 .filter-button {
     border: 1px transparent;
     border-radius: 4px;
+    height: 38px;
     background-color: var(--section-color);
     padding-top: 6px;
     padding-right: 22px;
@@ -125,6 +141,11 @@
 
 // 1200px +
 @media screen and (min-width: 1200px) {
+.section-project {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
     .list-button {
     margin-bottom: 50px;
     justify-content: center;

@@ -2558,8 +2558,12 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+.section-project {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .list-button {
-  margin-top: 60px;
   margin-bottom: 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -2599,8 +2603,11 @@ img {
 }
 
 @media (min-width: 480px) {
+  .section-project {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .list-button {
-    margin-top: 60px;
     margin-bottom: 40px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -2647,8 +2654,13 @@ img {
   }
 }
 @media (min-width: 768px) {
+  .section-project {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .list-button {
-    margin-bottom: 14px;
+    margin-bottom: 30px;
+    height: 38px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -2659,6 +2671,7 @@ img {
   .filter-button {
     border: 1px transparent;
     border-radius: 4px;
+    height: 38px;
     background-color: var(--section-color);
     padding-top: 6px;
     padding-right: 22px;
@@ -2678,6 +2691,10 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
+  .section-project {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   .list-button {
     margin-bottom: 50px;
     -webkit-box-pack: center;
@@ -2708,10 +2725,6 @@ img {
             box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
-.project-items {
-  margin-bottom: 60px;
-}
-
 .card-project {
   margin-bottom: 30px;
   width: 100%;
@@ -2805,9 +2818,6 @@ img {
 }
 
 @media screen and (min-width: 480px) {
-  .project-items {
-    margin-bottom: 60px;
-  }
   .card-project {
     margin-bottom: 30px;
     width: 100%;
@@ -2899,7 +2909,6 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-bottom: 60px;
     gap: 30px;
   }
   .card-project {
@@ -2999,8 +3008,10 @@ img {
   .card-project {
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
         flex-basis: calc((100% - 90px) / 3);
+    width: 370px;
   }
   .link-project {
+    width: 370px;
     -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
