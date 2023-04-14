@@ -2393,6 +2393,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
@@ -2735,6 +2738,7 @@ img {
 
 .link-project {
   display: block;
+  width: 100%;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -2820,13 +2824,14 @@ img {
 @media screen and (min-width: 480px) {
   .card-project {
     margin-bottom: 30px;
-    width: 100%;
+    width: 450px;
   }
   .card-project:nth-child(9) {
     margin-bottom: 0;
   }
   .link-project {
     display: block;
+    width: 450px;
     -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -2915,6 +2920,7 @@ img {
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
     margin-bottom: 0;
+    width: 354px;
   }
   .link-project {
     display: -webkit-box;
@@ -2924,6 +2930,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 354px;
     height: 100%;
     -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -3536,7 +3543,7 @@ img {
   }
   .footer-container {
     display: block;
-    width: 768px;
+    width: 100%;
   }
   .footer-left-part {
     display: -webkit-box;
