@@ -194,7 +194,7 @@ img {
 
 .mobile-menu__list-link {
   padding-left: 25px;
-  margin-bottom: 250px;
+  margin-bottom: 170px;
 }
 
 .mobile-menu__list-item:not(:last-child) {
@@ -222,7 +222,7 @@ img {
 
 .mobile-menu__list-address {
   padding-left: 25px;
-  margin-bottom: 64px;
+  margin-bottom: 40px;
 }
 
 .mobile-menu__link-phone {
@@ -242,7 +242,7 @@ img {
 }
 
 .mobile-menu__address-item:not(:last-child) {
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .mobile-menu__social-network {
