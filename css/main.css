@@ -295,11 +295,11 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 0;
-    padding-bottom: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
     border-bottom: 1px solid var(--header-border-color);
   }
   .mobile-menu-btn {
@@ -341,7 +341,7 @@ img {
     color: var(--primary-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -379,7 +379,7 @@ img {
     color: var(--link-address-color);
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.17;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -455,7 +455,7 @@ img {
     color: var(--primary-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
